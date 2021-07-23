@@ -38,10 +38,10 @@ public final class StandardSchemeMappings {
 
     private static final Range<Integer> COLORED_MATERIAL_RANGE = Range.closed(0, 15);
 
-    public static final SchemeMapping STAINED_GLASS = forColoredMaterial(Material.STAINED_GLASS_PANE);
-    public static final SchemeMapping STAINED_GLASS_BLOCK = forColoredMaterial(Material.STAINED_GLASS);
-    public static final SchemeMapping HARDENED_CLAY = forColoredMaterial(Material.STAINED_CLAY);
-    public static final SchemeMapping WOOL = forColoredMaterial(Material.WOOL);
+    public static final SchemeMapping STAINED_GLASS = forColoredMaterial(Material.GRAY_STAINED_GLASS_PANE);
+    public static final SchemeMapping STAINED_GLASS_BLOCK = forColoredMaterial(Material.BLUE_STAINED_GLASS);
+    public static final SchemeMapping HARDENED_CLAY = forColoredMaterial(Material.LEGACY_STAINED_CLAY);
+    public static final SchemeMapping WOOL = forColoredMaterial(Material.BLUE_WOOL);
     public static final SchemeMapping EMPTY = new EmptySchemeMapping();
 
     private static SchemeMapping forColoredMaterial(Material material) {

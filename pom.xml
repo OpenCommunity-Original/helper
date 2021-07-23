@@ -55,7 +55,7 @@
         <source.version>3.0.1</source.version>
         <javadoc.version>3.2.0</javadoc.version>
 
-        <bukkit.version>1.12.2-R0.1-SNAPSHOT</bukkit.version>
+        <bukkit.version>1.17.1-R0.1-SNAPSHOT</bukkit.version>
     </properties>
 
     <distributionManagement>
@@ -118,12 +118,12 @@
 
     <repositories>
         <repository>
-            <id>luck-repo</id>
-            <url>https://repo.lucko.me/</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+            <id>luck-repo</id>
+            <url>https://repo.lucko.me/</url>
         </repository>
     </repositories>
 
